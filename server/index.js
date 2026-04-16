@@ -35,3 +35,6 @@ initDb().then(() => {
   console.error('Failed to start server:', err)
   process.exit(1)
 })
+
+
+module.export = {app}
